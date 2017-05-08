@@ -33,7 +33,7 @@ Constructable type:
 ```
 type Constructable = {new(...args:any[]):any};
 ```
-Errors
+Errors:
 ```
 InjectionCycleError(message?: string)
 InstantiationError(constructable: Constructable, message?: string)
