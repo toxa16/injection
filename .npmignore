@@ -1,0 +1,8 @@
+*
+!dist/**
+!index.d.ts
+!LICENSE
+!NOTICE
+!package.json
+!README.md
+!tsconfig.json

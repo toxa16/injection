@@ -1,0 +1,30 @@
+{
+  "name": "@stayer/injection",
+  "version": "0.1.0",
+  "description": "Dependency injection module for Stayer framework.",
+  "author": "Anton Bakhurynskyi",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dependency",
+    "injection",
+    "Node.js",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "dependencies": {
+    "reflect-metadata": "^0.1.10"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.18",
+    "mocha": "^3.3.0"
+  },
+  "main": "./dist/src/index.js",
+  "types": "./index.d.ts",
+  "engines": {
+    "node": ">= 7.9.0"
+  },
+  "scripts": {
+    "test": "mocha ./dist/test/unit"
+  }
+}
