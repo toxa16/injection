@@ -6,3 +6,4 @@
 
 export {inject} from './injectors/inject';
 export {Injection} from './injection';
+export {registerInjection} from './register-injection';

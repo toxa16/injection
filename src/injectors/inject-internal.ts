@@ -3,7 +3,6 @@
  * @license Apache License, Version 2.0
  * @see NOTICE file
  */
-
 import {Constructable} from '../types/constructable';
 import {instantiateFactories} from './instantiate-factories';
 import {InjectionRecord} from '../interfaces/injection-record';

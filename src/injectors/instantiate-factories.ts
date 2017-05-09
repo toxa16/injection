@@ -1,12 +1,11 @@
-import {InjectionRecord} from '../interfaces/injection-record';
-import {Constructable} from '../types/constructable';
-import {InstantiationError} from '../errors/instantiation.error';
-
 /**
  * @copyright 2017 Anton Bakhurynskyi
  * @license Apache License, Version 2.0
  * @see NOTICE file
  */
+import {InjectionRecord} from '../interfaces/injection-record';
+import {Constructable} from '../types/constructable';
+import {InstantiationError} from '../errors/instantiation.error';
 
 /**
  * Instantiates factory injections from given injection records array.

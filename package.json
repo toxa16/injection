@@ -1,6 +1,6 @@
 {
   "name": "@stayer/injection",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Dependency injection module for Stayer framework.",
   "author": "Anton Bakhurynskyi",
   "license": "Apache-2.0",

@@ -1,12 +1,11 @@
-import {injectInternal} from './inject-internal';
-import {register} from '../register';
-import {Constructable} from '../types/constructable';
-
 /**
  * @copyright 2017 Anton Bakhurynskyi
  * @license Apache License, Version 2.0
  * @see NOTICE file
  */
+import {injectInternal} from './inject-internal';
+import {register} from '../register';
+import {Constructable} from '../types/constructable';
 
 /**
  * Injects dependencies and instantiates all injections registered

@@ -1,10 +1,9 @@
-import {Constructable} from '../types/constructable';
-
 /**
  * @copyright 2017 Anton Bakhurynskyi
  * @license Apache License, Version 2.0
  * @see NOTICE file
  */
+import {Constructable} from '../types/constructable';
 
 /**
  * An error thrown when an injection factory internal error occurs.
