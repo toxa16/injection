@@ -54,3 +54,19 @@ export declare class InjectionCycleError extends Error {}
 export declare class InstantiationError extends Error {
   constructor(constructable: Constructable, message?: string);
 }
+
+/**
+ * Registers a constructor injection. For internal use in decorators
+ * that are meant to implement the @Injection decorator functionality
+ * (constructor injections only).
+ *
+ * @param constructor {Constructable} an injection class constructor
+ * @param dependencies {Constructable[]} array of injection
+ * dependencies. Blank array [] by default.
+ *
+ * @since 0.1.1
+ */
+export declare function registerInjection(
+  constructor: Constructable,
+  dependencies?: Constructable[]
+): void;

@@ -1,6 +1,6 @@
 {
   "name": "@stayer/injection",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dependency injection module for Stayer framework.",
   "author": "Anton Bakhurynskyi",
   "license": "Apache-2.0",
@@ -26,9 +26,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/toxa16/injection.git"
+    "url": "git+https://github.com/toxa16/injection.git"
   },
   "scripts": {
     "test": "mocha ./dist/test/unit"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/toxa16/injection/issues"
+  },
+  "homepage": "https://github.com/toxa16/injection#readme"
 }

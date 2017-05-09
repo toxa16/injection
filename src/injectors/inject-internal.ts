@@ -1,18 +1,18 @@
-import {Constructable} from '../types/constructable';
-import {instantiateFactories} from './instantiate-factories';
-import {InjectionRecord} from '../interfaces/injection-record';
-import {InjectionCycleError} from '../errors/injection-cycle.error';
-
 /**
  * @copyright 2017 Anton Bakhurynskyi
  * @license Apache License, Version 2.0
  * @see NOTICE file
  */
 
+import {Constructable} from '../types/constructable';
+import {instantiateFactories} from './instantiate-factories';
+import {InjectionRecord} from '../interfaces/injection-record';
+import {InjectionCycleError} from '../errors/injection-cycle.error';
+
 /**
  * Instantiates injections with their dependencies from given
  * injection records array. Throws errors when injection cycle
- * encountered or on injection factory internal errors.
+ * encountered or when injection factory internal error occurs.
  *
  * @param records {InjectionRecord[]} injection record array
  *
